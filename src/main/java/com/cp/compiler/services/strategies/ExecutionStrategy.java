@@ -138,7 +138,6 @@ public abstract class ExecutionStrategy {
                 // Don't continue if the current test case failed
                 log.info("Test case id: {} failed, abort executions", testCase.getTestCaseId());
                 err = testCaseResult.getError();
-                break;
             }
         }
     
